@@ -31,6 +31,7 @@
 
 ## 🐍 Minhas contribuições
 <p align="center">
+![snake gif](https://github.com/julyaestrela/julyaestrela/blob/output/github-contribution-grid-snake.svg)
   <img src="https://github.com/ju130-star/ju130-star/blob/output/github-contribution-grid-snake.svg" />
 </p>
 
