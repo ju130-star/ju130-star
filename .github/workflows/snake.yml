@@ -1,41 +1,33 @@
-name: Generate Snake
+name: Gerar Snake Rosa
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # diário
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
+  schedule: # roda todo dia à meia-noite
+    - cron: "0 0 * * *"
+  workflow_dispatch: # permite rodar manualmente
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      # 1️⃣ Pega o código do repositório
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
 
-      - name: Generate contribution snake in pink shades
+      # 2️⃣ Gera a cobrinha rosa
+      - name: Gerar animação da cobrinha
         uses: Platane/snk@v3
         with:
-          github_user_name: ju130-star
-          outputs: dist/github-contribution-grid-snake.svg
-          color: FFB6C1,FFC0CB,FF69B4,FF1493   # tons de rosa do claro ao escuro
-          background: FFFFFF  # fundo branco (opcional)
-          theme: default
+          github_user_name: julyaestrela
+          palette: "github-light"
+          color: "ff69b4" # HEX da cor rosa
+          outputs: |
+            github-contribution-grid-snake.svg
 
-      - name: Copy SVG to root
-        run: cp dist/github-contribution-grid-snake.svg ./github-contribution-grid-snake.svg
-
-      - name: Commit and push SVG
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          branch: output
-          commit_message: "chore: update contribution snake in pink shades"
-          file_pattern: github-contribution-grid-snake.svg
+      # 3️⃣ Commit e push para o branch principal
+      - name: Commit do Snake no branch principal
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-contribution-grid-snake.svg
+          git commit -m "Atualiza cobrinha rosa" || echo "Sem mudanças"
+          git push

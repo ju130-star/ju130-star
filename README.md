@@ -39,7 +39,7 @@
 ## 🐍 Minhas contribuições
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ju130-star/ju130-star/output/github-contribution-grid-snake.svg" alt="Contribuições"/>
+  ![snake gif](./github-contribution-grid-snake.svg)
 </p>
 
 ---
