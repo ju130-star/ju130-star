@@ -1,4 +1,17 @@
-<h1 align="center">👋 Olá, eu sou a Julya Estrela</h1>
+<h1 align="center">
+  👋 Olá, eu sou a 
+  <span style="color:#ff00aa; animation: blink 1s infinite;">Ju Star</span>
+</h1>
+
+<style>
+@keyframes blink {
+  50% { opacity: 0; }
+}
+span {
+  animation: blink 1s infinite;
+}
+</style>
+
 
 <p align="center">
   💻 Desenvolvedora em formação 
@@ -23,6 +36,7 @@
 ## 📈 Estatísticas do GitHub
 
 <p align="center">
+<img height="180em" src="https://streak-stats.demolab.com?user=ju130-star&theme=radical&hide_border=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ju130-star&show_icons=true&theme=radical"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ju130-star&layout=compact&theme=radical"/>
 </p>
@@ -31,7 +45,7 @@
 
 ## 🐍 Minhas contribuições
 <p align="center">
-![snake gif](https://github.com/julyaestrela/julyaestrela/blob/output/github-contribution-grid-snake.svg)
+
   <img src="https://github.com/ju130-star/ju130-star/blob/output/github-contribution-grid-snake.svg" />
 </p>
 
