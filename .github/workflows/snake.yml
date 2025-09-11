@@ -1,0 +1,38 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # diário (opcional)
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ju130-star
+          outputs: dist/github-contribution-grid-snake.svg
+
+      - name: Copy SVG to root
+        run: cp dist/github-contribution-grid-snake.svg ./github-contribution-grid-snake.svg
+
+      - name: Commit and push SVG
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: output
+          commit_message: "chore: update contribution snake"
+          file_pattern: github-contribution-grid-snake.svg
