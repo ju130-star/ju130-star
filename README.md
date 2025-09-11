@@ -1,10 +1,10 @@
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=1500&pause=500&color=FF69B4,FFC0CB,FF1493&center=true&vCenter=true&width=700&lines=Ju+Star+💖" alt="Ju Star" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=1500&pause=500&color=FF69B4,FFC0CB,FF1493&center=true&vCenter=true&width=700&lines=✨+Oi,+eu+sou+Ju+Star!+✨" alt="Ju Star" />
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=24&duration=2000&pause=500&color=FFB6C1&center=true&vCenter=true&width=600&lines=💻+Desenvolvedora+em+formação" alt="Subtítulo" />
+   <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=24&duration=2000&pause=500&color=FFB6C1&center=true&vCenter=true&width=600&lines=💻+Desenvolvedora+em+formação" alt="Subtítulo" />
 </p>
 
 ---

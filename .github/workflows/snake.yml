@@ -21,11 +21,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate contribution snake
+      - name: Generate contribution snake in pink
         uses: Platane/snk@v3
         with:
           github_user_name: ju130-star
           outputs: dist/github-contribution-grid-snake.svg
+          color: FF69B4   # define a cor rosa
 
       - name: Copy SVG to root
         run: cp dist/github-contribution-grid-snake.svg ./github-contribution-grid-snake.svg
@@ -34,5 +35,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: output
-          commit_message: "chore: update contribution snake"
+          commit_message: "chore: update pink contribution snake"
           file_pattern: github-contribution-grid-snake.svg
