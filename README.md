@@ -1,18 +1,13 @@
-<h1 align="center">
-  👋 Olá, eu sou a 
-</h1>
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=1000&pause=500&color=FF00AA&center=true&vCenter=true&width=435&lines=Ju+Star+💻" alt="Typing SVG" />
-</h1>
-
-<p align="center">
-  💻 Desenvolvedora em formação 
-</p>
 
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=1500&pause=500&color=FF00AA&center,FFC0CB,FF1493&center=true&vCenter=true&width=700&lines=✨+Oi,+eu+sou+Ju+Star!+✨" alt="Ju Star" />
 </h1>
+
+
+<p align="center">
+  💻 Desenvolvedora em formação 
+</p>
 
 ---
 

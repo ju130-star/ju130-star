@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # diário (opcional)
+    - cron: "0 0 * * *" # diário
   workflow_dispatch:
   push:
     branches:
@@ -21,12 +21,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate contribution snake in pink
+      - name: Generate contribution snake in pink shades
         uses: Platane/snk@v3
         with:
           github_user_name: ju130-star
           outputs: dist/github-contribution-grid-snake.svg
-          color: FF69B4   # define a cor rosa
+          color: FFB6C1,FFC0CB,FF69B4,FF1493   # tons de rosa do claro ao escuro
+          background: FFFFFF  # fundo branco (opcional)
+          theme: default
 
       - name: Copy SVG to root
         run: cp dist/github-contribution-grid-snake.svg ./github-contribution-grid-snake.svg
@@ -35,5 +37,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: output
-          commit_message: "chore: update pink contribution snake"
+          commit_message: "chore: update contribution snake in pink shades"
           file_pattern: github-contribution-grid-snake.svg
