@@ -57,3 +57,5 @@
     <img src="https://img.shields.io/badge/-GitHub-FF1493?logo=github&style=for-the-badge"/>
   </a>
 </p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF69B4&height=120&section=footer&animation=twinkling"/>
