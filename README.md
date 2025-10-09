@@ -6,6 +6,8 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=1000&pause=500&color=FF00AA&center=true&vCenter=true&width=435&lines=Ju+Star+💻" alt="Typing SVG" />
 </h1>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=36BCF7&height=120&section=header&text=Olá,+sou+a+Ju!&fontSize=40&fontColor=fff&animation=twinkling"/>
+
 <p align="center">
   💻 Desenvolvedora em formação 
 </p>
