@@ -12,6 +12,11 @@
   💻 Desenvolvedora em formação 
 </p>
 
+
+<p align="center">
+  <img src="https://media.giphy.com/media/26u4b45b8KlgAB7iM/giphy.gif" width="200"/>
+</p>
+
 ---
 
 ## 🚀 Sobre mim
