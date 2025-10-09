@@ -58,4 +58,4 @@
   </a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF69B4&height=120&section=footer&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF1493&height=120&section=footer&animation=twinkling"/>
