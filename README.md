@@ -13,10 +13,6 @@
 </p>
 
 
-<p align="center">
-  <img src="https://media.giphy.com/media/26u4b45b8KlgAB7iM/giphy.gif" width="200"/>
-</p>
-
 ---
 
 ## 🚀 Sobre mim
@@ -62,5 +58,10 @@
     <img src="https://img.shields.io/badge/-GitHub-FF1493?logo=github&style=for-the-badge"/>
   </a>
 </p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/26u4b45b8KlgAB7iM/giphy.gif" width="400"/>
+</p>
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF1493&height=120&section=footer&animation=twinkling"/>
