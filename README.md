@@ -60,7 +60,7 @@
 </p>
 
 <p align="center">
-  <img src="[https://media.giphy.com/media/26u4b45b8KlgAB7iM/giphy.gif](https://media4.giphy.com/media/7zi5Y6ex0ViRodY5sA/source.gif)" width="400"/>
+  <img src="https://media4.giphy.com/media/7zi5Y6ex0ViRodY5sA/source.gif" width="400"/>
 </p>
 
 
