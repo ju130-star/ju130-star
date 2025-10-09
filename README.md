@@ -23,7 +23,7 @@
 ## 🛠️ Tecnologias e Ferramentas
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=angular,flutter,dart,ts,js,nodejs,firebase,mysql,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=angular,flutter,dart,ts,js,nodejs,firebase,mysql,git,github,vscode,postman,figma,mongoDB,html,css," />
 </p>
 
 ---
