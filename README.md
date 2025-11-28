@@ -51,7 +51,7 @@
   <a href="https://www.linkedin.com/in/julya-estrela-165bba397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-FF69B4?logo=linkedin&style=for-the-badge"/>
   </a>
-  <a href="mailto:julyaestrela41@gmail.com">
+  <a href="mailto:julyaestrela10@gmail.com">
     <img src="https://img.shields.io/badge/-Gmail-FFC0CB?logo=gmail&style=for-the-badge"/>
   </a>
   <a href="https://github.com/ju130-star">
