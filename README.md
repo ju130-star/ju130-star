@@ -48,7 +48,7 @@
 
 ## 🌍 Onde me encontrar
 <p align="center">
-  <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">
+  <a href="https://www.linkedin.com/in/julya-estrela-165bba397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-FF69B4?logo=linkedin&style=for-the-badge"/>
   </a>
   <a href="mailto:julyaestrela41@gmail.com">
